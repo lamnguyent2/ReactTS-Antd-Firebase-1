@@ -1,0 +1,675 @@
+@import "~antd/dist/antd.css";
+
+.NumberLevelMananement-Component {
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    .trigger {
+        padding: 0 24px;
+        font-size: 18px;
+        line-height: 64px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    .trigger:hover {
+        color: #1890ff;
+    }
+
+    .site-layout .site-layout-background {
+        background: #fff;
+    }
+
+    .ant-layout {
+        min-height: 810px;
+        max-height: 810px;
+
+        .ant-layout {
+            .ant-layout-content {
+                background-color: rgb(246, 246, 246);
+                margin: 0 !important;
+
+                .site-layout-background {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left-title {
+                        h2 {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #7e7d88;
+
+                            .fa-angle-right {
+                                font-size: 12px;
+                            }
+                            span {
+                                color: #ff7506;
+                            }
+                        }
+                    }
+                    .right-mini-profile {
+                        display: flex;
+                        width: 23%;
+
+                        .person-notification {
+                            display: flex;
+                            .ant-avatar {
+                                min-width: 40px;
+                                min-height: 40px;
+                                margin: 0 8px 0 24px;
+                            }
+
+                            .hello-title {
+                                margin-top: -2px;
+                                p {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                    color: #7e7d88;
+                                    margin-bottom: 0;
+                                }
+
+                                h2 {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #535261;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                h2.Title-Number {
+                    margin: 0 0 16px 24px;
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #ff7506;
+                }
+
+                .menu-service {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-left: 24px;
+                    margin-bottom: 16px;
+                    width: 89.678%;
+                    .services {
+                        label {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #282739;
+                            margin-bottom: 4px;
+                        }
+                    }
+                    .ant-select {
+                        max-width: 154px;
+                        height: 44px;
+                        .ant-select-selector {
+                            height: 44px;
+                            border-radius: 8px;
+                            .ant-select-selection-placeholder {
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #535261;
+                                margin-top: 9px;
+                            }
+                            .ant-select-selection-item {
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #282739;
+                                margin-top: 9px;
+                            }
+                        }
+
+                        .ant-select-arrow {
+                            .anticon-caret-down {
+                                svg {
+                                    color: #ff7506;
+                                    width: 20px;
+                                    height: 20px;
+                                    transition: all 0.3s linear;
+                                }
+                            }
+                        }
+
+                        &-active {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+
+                        &:focus {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+
+                        &::after {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+
+                        &:checked {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+
+                        &:hover {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+                        &-selected {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+
+                        &:not(.ant-select-disabled):hover .ant-select-selector {
+                            border: 1px solid #ffac6a;
+                            border-radius: 8px;
+                        }
+                    }
+
+                    .ant-select-open{
+                        .ant-select-arrow{
+                            .anticon-caret-down{
+                                svg{
+                                    transform: rotate(180deg);
+                                    transition: all 0.3s linear;
+                                }
+                            }
+                        }
+                    }
+
+                    .ant-space {
+                        .ant-space-item {
+                            .ant-picker {
+                                border-radius: 8px;
+                                max-width: 150px;
+                                height: 44px;
+                                .ant-picker-input {
+                                    display: flex;
+                                    flex-direction: row-reverse;
+                                    input {
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        color: #a9a9b0;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+
+                            .ant-input-affix-wrapper {
+                                display: inline-flex;
+                                align-items: center;
+                                border-radius: 8px;
+                                max-width: 240px;
+                                height: 44px;
+                                &:hover {
+                                    border: 1px solid #ffac6a;
+                                    border-radius: 8px;
+                                }
+
+                                input {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    color: #202027;
+                                    &::placeholder {
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 22px;
+                                        color: #a9a9b0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .number-create-link {
+                    position: absolute;
+                    z-index: 1;
+                    right: 0;
+                    width: 5.556%;
+                    height: 10.399%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background: #fff2e7;
+                    box-shadow: 0px 0px 6px #e7e9f2;
+                    border-radius: 8px 0px 0px 8px;
+                    a {
+                        font-family: "Nunito";
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 19px;
+                        text-align: center;
+                        color: #ff7506;
+                    }
+                }
+
+                .number-details {
+                    width: 89.678%;
+                    height: 60.495%;
+                    margin-left: 24px;
+                    border-radius: 12px;
+
+                    .ant-table-wrapper {
+                        .ant-spin-nested-loading {
+                            .ant-spin-container {
+                                .ant-table {
+                                    border-radius: 12px;
+                                    max-height: 490px;
+                                    .ant-table-container {
+                                        border-radius: 12px;
+                                        max-height: 490px;
+
+                                        .ant-table-content {
+                                            max-height: 490px;
+                                            border-radius: 12px;
+                                            & > table {
+                                                border-radius: 12px !important;
+                                            }
+                                            table {
+                                                max-height: 490px;
+                                                border-radius: 12px;
+                                                max-height: 490px;
+
+                                                colgroup {
+                                                    max-height: 490px;
+                                                }
+                                                .ant-table-thead {
+                                                    border-radius: 12px 12px 0 0;
+                                                    max-height: 49px;
+                                                    & > tr > th {
+                                                        max-height: 49px;
+                                                        padding: 12px;
+                                                    }
+                                                    tr {
+                                                        max-height: 49px;
+                                                        .stt-one {
+                                                            background-color: #ff9138;
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 700;
+                                                            font-size: 16px;
+                                                            line-height: 24px;
+                                                            color: #ffffff;
+                                                            border-radius: 12px 0 0 0;
+                                                        }
+
+                                                        .stt-two {
+                                                            background-color: #ff9138;
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 700;
+                                                            font-size: 16px;
+                                                            line-height: 24px;
+                                                            color: #ffffff;
+                                                            text-align: center;
+                                                        }
+
+                                                        .stt {
+                                                            background-color: #ff9138;
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 700;
+                                                            font-size: 16px;
+                                                            line-height: 24px;
+                                                            color: #ffffff;
+                                                        }
+
+                                                        .stt-final {
+                                                            background-color: #ff9138;
+                                                            border-radius: 0 12px 0 0;
+                                                        }
+                                                        @media (max-width:1280px) {
+                                                            .stt-one{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+                                                            .stt-two{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+                                                            .stt-three{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+
+                                                            .stt-four{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+                                                            .stt-five{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+                                                            .stt-six{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+                                                            .stt{
+                                                                font-size: 12px;
+                                                                line-height: 20px;
+                                                            }
+                                                        }
+
+                                                        @media (max-width:1000px) {
+                                                            .stt-one{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+                                                            .stt-two{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+                                                            .stt-three{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+
+                                                            .stt-four{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+                                                            .stt-five{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+                                                            .stt-six{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+                                                            .stt{
+                                                                font-size: 10px;
+                                                                line-height: 16px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                tbody.ant-table-tbody {
+                                                    max-height: 441px !important ;
+                                                    border-radius: 0 0 12px 12px;
+                                                    & > tr > td {
+                                                        max-height: 49px;
+                                                        padding: 13.5px;
+                                                        @media (max-width:1280px) {
+                                                            padding: 10px 2px;
+                                                        }
+                                                    }
+                                                    tr.ant-table-row {
+                                                        td.ant-table-cell {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 14px;
+                                                            line-height: 21px;
+                                                            color: #535261;
+                                                            .dang-cho{
+                                                                svg{
+                                                                    circle{
+                                                                        fill: #4277FF;
+                                                                    }
+                                                                }
+                                                            }
+                                                            .bo-qua{
+                                                                svg{
+                                                                    circle{
+                                                                        fill: #E73F3F;
+                                                                    }
+                                                                }
+                                                            }
+                                                            @media (max-width:1000px) {
+                                                                font-size: 11px;
+                                                                line-height: 14px;
+                                                            }
+                                                        }
+
+                                                        td.stt-final{
+                                                            a{
+                                                                text-decoration: underline;
+                                                            }
+                                                        }
+                                                    }
+                                                    tr:last-child {
+                                                        border-radius: 0 0 12px 12px;
+                                                        td:last-child {
+                                                            border-radius: 0 0 12px 0;
+                                                        }
+
+                                                        td:first-child {
+                                                            border-radius: 0 0 0 12px;
+                                                        }
+                                                    }
+
+                                                    .table-row-dark{
+                                                        background-color: #FFF2E7;
+                                                    }
+                                                }
+                                                & > tbody {
+                                                    border-top-left-radius: 15px !important;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .ant-pagination {
+                                    .ant-pagination-prev {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: end;
+                                        span {
+                                            svg {
+                                                color: #7e7d88;
+                                            }
+                                        }
+                                    }
+
+                                    .ant-pagination-item {
+                                        background: none;
+                                        border: none;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        a {
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                            line-height: 22px;
+                                            color: #7e7d88;
+                                        }
+                                    }
+
+                                    .ant-pagination-item-active {
+                                        background: #ff7506;
+                                        border-radius: 4px;
+                                        border-color: #ff7506;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        a {
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            font-size: 16px;
+                                            line-height: 22px;
+                                            color: #ffffff;
+                                        }
+                                    }
+
+                                    .ant-pagination-next {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: start;
+                                        span {
+                                            svg {
+                                                color: #7e7d88;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (max-width:1000px) {
+                    .site-layout-background {
+                        min-height: 44px !important;
+                        padding: 8px 24px !important;
+                        .left-title {
+                            display: flex;
+                            align-items: center;
+                            h2{
+                                margin-bottom: 0;
+                            }
+                        }
+                        .right-mini-profile {
+                            width: 50%;
+                            justify-content: flex-end;
+                            .icon-notification{
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    h2.Title-Number{
+                        display: none;
+                    }
+
+                    .menu-service{
+                        margin-bottom: 10px;
+                        width: 95%;
+                        .services{
+                            .ant-select{
+                                height: 36px;
+                                .ant-select-selector{
+                                    height: 36px;
+                                    .ant-select-selection-item{
+                                        margin-top: 5px;
+                                    }
+                                }
+                            }
+                            .ant-space{
+                                .ant-space-item{
+                                    .ant-picker{
+                                        max-height: 36px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .number-details{
+                        width: 100%;
+                        margin-left: 0;
+                        padding: 0 10px;
+                        .ant-table-wrapper{
+                            .ant-spin-nested-loading{
+                                .ant-spin-container{
+                                    .ant-pagination{
+                                        margin-top: 12px;
+                                        .ant-pagination-item{
+                                            min-width: 25px;
+                                            height: 25px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } 
+                }
+
+                @media (max-width:768px) {
+                    .menu-service{
+                        flex-direction: column;
+                        margin-left: 0;
+                        width: 100%;
+                        padding: 0 8px;
+                        .services{
+                            text-align: center;
+                            .ant-space{
+                                .ant-space-item{
+                                    .ant-input-affix-wrapper{
+                                        height: 40px;
+                                        .ant-input-suffix{
+                                            height: 40px;
+                                            svg{
+                                                width: 14px;
+                                                height: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .number-create-link{
+                        width: 10%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-select-dropdown {
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    .rc-virtual-list {
+        .rc-virtual-list-holder {
+            .rc-virtual-list-holder-inner {
+                .ant-select-item {
+                    height: 44px;
+                    .ant-select-item-option-content {
+                        font-family: "Nunito";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #282739;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+                    background: #fff2e7;
+                }
+            }
+        }
+
+        .rc-virtual-list-scrollbar{
+            width: 4px !important;
+            .rc-virtual-list-scrollbar-thumb{
+                background: #ffc89b !important;
+            }
+        }
+    }
+}

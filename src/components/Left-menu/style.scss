@@ -1,0 +1,247 @@
+.ant-layout-sider {
+    background-color: #ffffff;
+
+    .ant-layout-sider-children {
+        .logo {
+            background: url("../../../public/images/User/Profile/logo.png");
+            background-size: 44%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 18.522%;
+        }
+
+        .ant-menu {
+            height: 78%;
+            border: none;
+            .ant-menu-submenu {
+                height: 48px;
+                display: flex;
+                .ant-menu-submenu-title {
+                    display: flex;
+                    align-items: center;
+                    svg {
+                        margin-right: 8px;
+                    }
+                    .-title-content {
+                        font-family: "Nunito";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: rgb(126, 125, 136);
+                    }
+                    .ant-menu-submenu-arrow {
+                        display: none;
+                    }
+                }
+
+                &-active {
+                    background-color: #FF7506;
+                    .ant-menu-submenu-title {
+                        span.-title-content {
+                            color: #FFFFFF;
+                        }
+
+                        svg path {
+                            stroke: #FFFFFF;
+                        }
+
+                        .ant-menu-submenu-arrow {
+                            color: #FFFFFF;
+                        }
+                    } 
+                }
+
+                &:hover {
+                    background-color: rgb(255, 242, 231);
+                    .ant-menu-submenu-title {
+                        span.-title-content {
+                            color: #ff7506;
+                        }
+
+                        svg path {
+                            stroke: #ff7506;
+                        }
+
+                        .ant-menu-submenu-arrow {
+                            color: #ff7506;
+                        }
+                    }
+                }
+                &-selected {
+                    background-color: #FF7506;
+                    .ant-menu-submenu-title {
+                        span.-title-content {
+                            color: #FFFFFF;
+                        }
+
+                        svg path {
+                            stroke: #FFFFFF;
+                        }
+
+                        .ant-menu-submenu-arrow {
+                            color: #FFFFFF;
+                        }
+                    } 
+                }
+            }
+
+            .Setting.ant-menu-submenu {
+                .ant-menu-submenu-title {
+                    .ant-menu-submenu-arrow {
+                        display: block;
+                        color: rgb(126, 125, 136);
+                    }
+                }
+
+                &-active {
+                    .ant-menu-submenu-title {
+                        span.-title-content {
+                            color: rgb(126, 125, 136);
+                        }
+
+                        svg path {
+                            stroke: rgb(126, 125, 136);
+                        }
+
+                        .ant-menu-submenu-arrow {
+                            color: rgb(126, 125, 136);
+                        }
+                    }
+                }
+
+                &:hover {
+                    background-color: #ffffff;
+                    .ant-menu-submenu-title {
+                        span.-title-content {
+                            color: rgb(126, 125, 136);
+                        }
+
+                        svg path {
+                            stroke: rgb(126, 125, 136);
+                        }
+
+                        .ant-menu-submenu-arrow {
+                            color: rgb(126, 125, 136);
+                        }
+                    } 
+                }
+                &-selected {
+                    background-color: #ffffff;
+                    .ant-menu-submenu-title {
+                        span.-title-content {
+                            color: rgb(126, 125, 136);
+                        }
+
+                        svg path {
+                            stroke: rgb(126, 125, 136);
+                        }
+
+                        .ant-menu-submenu-arrow {
+                            color: rgb(126, 125, 136);
+                        }
+                    } 
+                }
+            }
+        }
+        .ant-menu-light .ant-menu-item:hover,
+        .ant-menu-light .ant-menu-item-active,
+        .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+        .ant-menu-light .ant-menu-submenu-active,
+        .ant-menu-light .ant-menu-submenu-title:hover {
+            color: #ff7506;
+        }
+
+        .Logout {
+            height: 48%;
+            display: flex;
+            align-items: end;
+
+            .ant-menu-submenu {
+                width: 100%;
+                background: #fff2e7;
+                border-radius: 8px;
+                margin: 0 12px;
+
+                &::after {
+                    border: none;
+                }
+                .ant-menu-submenu-title {
+                    .ant-image {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 8px;
+                    }
+
+                    span.-title-content {
+                        font-family: "Nunito";
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #ff7506;
+                    }
+                }
+            }
+        }
+    }
+
+    .ant-layout-sider-zero-width-trigger{
+        background: #ff7506;
+    }
+}
+
+.ant-menu-submenu-popup {
+    .ant-menu {
+        border-radius: 0 12px 12px 0;
+        box-shadow: none;
+        min-width: 200px;
+        .ant-menu-item {
+            margin-bottom: 0px;
+            .ant-menu-title-content {
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgb(126, 125, 136);
+            }
+
+            &-active {
+                background-color: rgb(255, 242, 231);
+                span.ant-menu-title-content {
+                    color: #ff7506;
+                }
+            }
+
+            &:hover {
+                background-color: rgb(255, 242, 231);
+                span.ant-menu-title-content {
+                    color: #ff7506;
+                }
+            }
+            &-selected {
+                background-color: #ff7506;
+                span.ant-menu-title-content {
+                    color: rgb(255, 242, 231);
+                }
+            }
+
+            &::after {
+                background-color: rgb(255, 242, 231);
+                .ant-menu-submenu-title {
+                    span.ant-menu-title-content {
+                        color: #ff7506;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-image {
+    .ant-image-mask {
+        display: none;
+    }
+}

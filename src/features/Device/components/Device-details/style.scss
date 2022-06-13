@@ -1,0 +1,273 @@
+@import "~antd/dist/antd.css";
+
+.DeviceDetails-Component {
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    .trigger {
+        padding: 0 24px;
+        font-size: 18px;
+        line-height: 64px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    .trigger:hover {
+        color: #1890ff;
+    }
+
+    .site-layout .site-layout-background {
+        background: #fff;
+    }
+
+    .ant-layout {
+        min-height: 810px;
+
+        .ant-layout {
+            .ant-layout-content {
+                background-color: rgb(246, 246, 246);
+                margin: 0 !important;
+
+                .site-layout-background {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left-title {
+                        h2 {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #7e7d88;
+
+                            .fa-angle-right {
+                                font-size: 12px;
+                            }
+                            span {
+                                color: #ff7506;
+                            }
+                        }
+                    }
+                    .right-mini-profile {
+                        display: flex;
+                        width: 23%;
+
+                        .person-notification {
+                            display: flex;
+                            .ant-avatar {
+                                min-width: 40px;
+                                min-height: 40px;
+                                margin: 0 8px 0 24px;
+                            }
+
+                            .hello-title {
+                                margin-top: -2px;
+                                p {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                    color: #7e7d88;
+                                    margin-bottom: 0;
+                                }
+
+                                h2 {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #535261;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                h2.Title-Number {
+                    margin: 0 0 24px 24px;
+                    font-family: "Nunito";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #ff7506;
+                }
+                .number-create-link {
+                    position: absolute;
+                    z-index: 1;
+                    right: 0;
+                    width: 5.556%;
+                    height: 10.399%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background: #fff2e7;
+                    box-shadow: 0px 0px 6px #e7e9f2;
+                    border-radius: 8px 0px 0px 8px;
+                    a {
+                        font-family: "Nunito";
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 19px;
+                        text-align: center;
+                        color: #ff7506;
+                    }
+                }
+
+                .number-details {
+                    background-color: #ffffff;
+                    width: 89.678%;
+                    height: 74.568%;
+                    margin-left: 24px;
+                    border-radius: 12px;
+                    padding: 16px 24px 16px 24px;
+                    display: flex;
+                    flex-direction: column;
+
+                    h2 {
+                        font-family: "Nunito";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #ff7506;
+                        margin-bottom: 20px;
+                    }
+
+                    .information {
+                        display: flex;
+                        width: 100%;
+                        .left-form {
+                            width: 100%;
+
+                            .info {
+                                display: flex;
+                                h3 {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #282739;
+                                    width: 22%;
+                                }
+                                p {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #535261;
+                                }
+                            }
+                        }
+                        .right-form {
+                            width: 100%;
+
+                            .info {
+                                display: flex;
+                                h3 {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #282739;
+                                    width: 30%;
+                                }
+                                p {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #535261;
+                                    display: flex;
+                                    align-items: center;
+                                    svg{
+                                        margin-right: 4px;
+                                        circle{
+                                            fill: #4277FF;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .service-used{
+                        h3 {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #282739;
+                            width: 22%;
+                        }
+                        p {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #535261;
+                        }
+                    }
+                }
+                @media (max-width: 1000px) {
+                    .site-layout-background {
+                        min-height: 44px !important;
+                        padding: 8px 24px !important;
+                        .left-title {
+                            display: flex;
+                            align-items: center;
+                            h2 {
+                                margin-bottom: 0;
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 22px;
+                                color: #7e7d88;
+
+                                .fa-angle-right {
+                                    font-size: 8px;
+                                }
+                                span {
+                                    color: #ff7506;
+                                }
+                            }
+                        }
+                        .right-mini-profile {
+                            width: 50%;
+                            justify-content: flex-end;
+                            .icon-notification {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    h2.Title-Number {
+                        display: none;
+                    }
+
+                    .number-create-link{
+                        width: 10%;
+                    }
+                    .number-details {
+                        width: 100%;
+                        margin-left: 0;
+                        height: auto;
+                        flex-direction: column;
+                        border: 12px solid rgb(246, 246, 246);
+                        padding: 16px 24px 16px 24px;
+                    }
+                }
+            }
+        }
+    }
+}

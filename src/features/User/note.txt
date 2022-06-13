@@ -1,0 +1,9 @@
+CREATE LOCALSTORAGE
+localStorage.setItem('dataUser', JSON.stringify(user))
+
+GET DATA LOCALSTORAGE
+const dataUser = localStorage.getItem("dataUser")
+const dataUsers = JSON.parse(dataUser)
+
+LOG OUT LOCALSTORAGE
+localStorage.removeItem("dataUser")

@@ -1,0 +1,33 @@
+Check email qua https://www.emailjs.com/
+
+const sendEmail = (e) => {
+    e.preventDefault();    
+    const valuegmail = document.getElementById("email").value;
+    axios.get(`${AxiosUser()}/users/email/${valuegmail}`)
+        .then(res => {
+            setDetails({ 
+                email: valuegmail,
+                Id: res.data.users._id 
+            });
+            if (res.data.users.email) {
+                emailjs.sendForm('service_9hrni8l', 'template_spcihof', form.current, 'user_BKMH9aTOVomuE3oKClpvB')
+                    .then((result) => {
+                        console.log(result.text);
+                    }, (error) => {
+                        console.log(error.text);
+                    });
+                showResult(true);
+            }
+        })
+        .catch(err => {
+            console.log("Email không tồn tại!");
+        })
+};
+
+
+
+Tạo datacheckmail trong localStorage
+
+useEffect(() => {
+    localStorage.setItem('datacheckmail', JSON.stringify(details))
+}, [details])

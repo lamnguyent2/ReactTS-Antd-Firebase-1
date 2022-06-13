@@ -1,0 +1,1213 @@
+@import "~antd/dist/antd.css";
+
+.Dashboard-Component {
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    .trigger {
+        padding: 0 24px;
+        font-size: 18px;
+        line-height: 64px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    .trigger:hover {
+        color: #1890ff;
+    }
+
+    .site-layout .site-layout-background {
+        background: #fff;
+    }
+
+    .ant-layout {
+        min-height: 810px;
+
+        .ant-layout {
+            .ant-layout-content {
+                background-color: rgb(246, 246, 246);
+                margin: 0 !important;
+
+                .site-layout-background {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left-title {
+                        padding: 24px 0px 0 24px;
+                        width: 67.662%;
+                        h1 {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #ff9138;
+                            margin-bottom: 45px;
+                        }
+
+                        .table-chart {
+                            height: 95%;
+
+                            h2 {
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 36px;
+                                color: #ff7506;
+                                margin-bottom: 20px;
+                            }
+
+                            .chart {
+                                display: flex;
+                                height: 16.072%;
+                                margin-bottom: 16px;
+                                .level-chart {
+                                    width: 22.823%;
+                                    height: 100%;
+                                    background: #ffffff;
+                                    border-radius: 10px;
+                                    padding: 8px 12px;
+                                    filter: drop-shadow(2px 2px 15px rgba(70, 64, 67, 0.1));
+
+                                    .ordinal-number {
+                                        .details-ordinal-number {
+                                            margin-bottom: 22px;
+                                            display: flex;
+                                            align-items: center;
+                                            .icon-ordinal-number {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                background: rgb(232, 239, 254);
+                                            }
+
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                                margin-left: 12px;
+                                            }
+                                        }
+                                        .view-ordinal-number {
+                                            display: flex;
+                                            align-items: flex-end;
+                                            justify-content: space-between;
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 30px;
+                                                line-height: 20px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                            }
+                                            .ant-statistic {
+                                                background: rgba(255, 149, 1, 0.15);
+                                                border-radius: 7.18115px;
+                                                width: 29.63%;
+                                                height: 14.98px;
+                                                .ant-statistic-content {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    height: 14.98px;
+                                                    .ant-statistic-content-prefix {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        svg {
+                                                            width: 6px;
+                                                        }
+                                                    }
+                                                    .ant-statistic-content-value {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        .ant-statistic-content-value-int {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #ff9138;
+                                                        }
+                                                        .ant-statistic-content-value-decimal {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #ff9138;
+                                                        }
+                                                    }
+
+                                                    .ant-statistic-content-suffix {
+                                                        font-family: "Nunito";
+                                                        font-style: normal;
+                                                        font-weight: 400;
+                                                        font-size: 8px;
+                                                        line-height: 12px;
+                                                        color: #ff9138;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .used-level-chart {
+                                    margin-left: 13px;
+                                    width: 22.823%;
+                                    height: 100%;
+                                    background: #ffffff;
+                                    border-radius: 10px;
+                                    padding: 8px 12px;
+                                    filter: drop-shadow(2px 2px 15px rgba(70, 64, 67, 0.1));
+
+                                    .ordinal-number {
+                                        .details-ordinal-number {
+                                            margin-bottom: 22px;
+                                            display: flex;
+                                            align-items: center;
+                                            .icon-ordinal-number {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                background: rgb(225, 247, 230);
+                                            }
+
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                                margin-left: 12px;
+                                            }
+                                        }
+                                        .view-ordinal-number {
+                                            display: flex;
+                                            align-items: flex-end;
+                                            justify-content: space-between;
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 30px;
+                                                line-height: 20px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                            }
+                                            .ant-statistic {
+                                                background: rgba(231, 63, 63, 0.15);
+                                                border-radius: 7.18115px;
+                                                width: 29.63%;
+                                                height: 14.98px;
+                                                .ant-statistic-content {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    height: 14.98px;
+                                                    .ant-statistic-content-prefix {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        svg {
+                                                            width: 6px;
+                                                        }
+                                                    }
+                                                    .ant-statistic-content-value {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        .ant-statistic-content-value-int {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #e73f3f;
+                                                        }
+                                                        .ant-statistic-content-value-decimal {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #e73f3f;
+                                                        }
+                                                    }
+
+                                                    .ant-statistic-content-suffix {
+                                                        font-family: "Nunito";
+                                                        font-style: normal;
+                                                        font-weight: 400;
+                                                        font-size: 8px;
+                                                        line-height: 12px;
+                                                        color: #e73f3f;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .waiting-level-chart {
+                                    margin-left: 13px;
+                                    width: 22.823%;
+                                    height: 100%;
+                                    background: #ffffff;
+                                    border-radius: 10px;
+                                    padding: 8px 12px;
+                                    filter: drop-shadow(2px 2px 15px rgba(70, 64, 67, 0.1));
+
+                                    .ordinal-number {
+                                        .details-ordinal-number {
+                                            margin-bottom: 22px;
+                                            display: flex;
+                                            align-items: center;
+                                            .icon-ordinal-number {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                background: rgb(255, 243, 233);
+                                            }
+
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                                margin-left: 12px;
+                                            }
+                                        }
+                                        .view-ordinal-number {
+                                            display: flex;
+                                            align-items: flex-end;
+                                            justify-content: space-between;
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 30px;
+                                                line-height: 20px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                                margin-left: 20px;
+                                                width: 50%;
+                                            }
+                                            .ant-statistic {
+                                                background: rgba(255, 149, 1, 0.15);
+                                                border-radius: 7.18115px;
+                                                width: 29.63%;
+                                                height: 14.98px;
+                                                .ant-statistic-content {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    height: 14.98px;
+                                                    .ant-statistic-content-prefix {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        svg {
+                                                            width: 6px;
+                                                        }
+                                                    }
+                                                    .ant-statistic-content-value {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        .ant-statistic-content-value-int {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #ff9138;
+                                                        }
+                                                        .ant-statistic-content-value-decimal {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #ff9138;
+                                                        }
+                                                    }
+
+                                                    .ant-statistic-content-suffix {
+                                                        font-family: "Nunito";
+                                                        font-style: normal;
+                                                        font-weight: 400;
+                                                        font-size: 8px;
+                                                        line-height: 12px;
+                                                        color: #ff9138;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .skipped-level-chart {
+                                    margin-left: 13px;
+                                    width: 22.823%;
+                                    height: 100%;
+                                    background: #ffffff;
+                                    border-radius: 10px;
+                                    padding: 8px 12px;
+                                    filter: drop-shadow(2px 2px 15px rgba(70, 64, 67, 0.1));
+
+                                    .ordinal-number {
+                                        .details-ordinal-number {
+                                            margin-bottom: 22px;
+                                            display: flex;
+                                            align-items: center;
+                                            .icon-ordinal-number {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                background: rgb(254, 233, 233);
+                                            }
+
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                                margin-left: 12px;
+                                            }
+                                        }
+                                        .view-ordinal-number {
+                                            display: flex;
+                                            align-items: flex-end;
+                                            justify-content: space-between;
+                                            p {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 30px;
+                                                line-height: 20px;
+                                                color: #535261;
+                                                margin-bottom: 0;
+                                            }
+                                            .ant-statistic {
+                                                background: rgba(231, 63, 63, 0.15);
+                                                border-radius: 7.18115px;
+                                                width: 29.63%;
+                                                height: 14.98px;
+                                                .ant-statistic-content {
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    height: 14.98px;
+                                                    .ant-statistic-content-prefix {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        svg {
+                                                            width: 6px;
+                                                        }
+                                                    }
+                                                    .ant-statistic-content-value {
+                                                        height: 14.98px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        .ant-statistic-content-value-int {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #e73f3f;
+                                                        }
+                                                        .ant-statistic-content-value-decimal {
+                                                            font-family: "Nunito";
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            font-size: 8px;
+                                                            line-height: 12px;
+                                                            color: #e73f3f;
+                                                        }
+                                                    }
+
+                                                    .ant-statistic-content-suffix {
+                                                        font-family: "Nunito";
+                                                        font-style: normal;
+                                                        font-weight: 400;
+                                                        font-size: 8px;
+                                                        line-height: 12px;
+                                                        color: #e73f3f;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .statistical-tables {
+                                width: 96.4%;
+                                height: 64.82%;
+                                background: #ffffff;
+                                border-radius: 12px;
+                                padding: 24px;
+                                .content {
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    .left-content {
+                                        h3 {
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            font-size: 20px;
+                                            line-height: 30px;
+                                            color: #282739;
+                                            margin-bottom: 0;
+                                        }
+                                        p {
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 21px;
+                                            color: #a9a9b0;
+                                            margin-bottom: 32px;
+                                        }
+                                    }
+
+                                    .right-content {
+                                        display: flex;
+                                        p {
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                            line-height: 24px;
+                                            color: #282739;
+                                            margin-bottom: 0;
+                                            margin-right: 8px;
+                                            margin-top: 9px;
+                                        }
+
+                                        .ant-select {
+                                            border-radius: 8px;
+                                            .ant-select-selector {
+                                                border-radius: 8px;
+                                                height: 44px;
+                                                .ant-select-selection-placeholder {
+                                                    font-family: "Nunito";
+                                                    font-style: normal;
+                                                    font-weight: 400;
+                                                    font-size: 16px;
+                                                    line-height: 24px;
+                                                    color: #a9a9b0;
+                                                    margin-top: 9px;
+                                                }
+                                                .ant-select-selection-item {
+                                                    font-family: "Nunito";
+                                                    font-style: normal;
+                                                    font-weight: 400;
+                                                    font-size: 16px;
+                                                    line-height: 24px;
+                                                    color: #a9a9b0;
+                                                    margin-top: 9px;
+                                                }
+                                            }
+
+                                            .ant-select-arrow {
+                                                top: 20%;
+                                                margin-top: 0;
+                                                .anticon-caret-down {
+                                                    svg {
+                                                        color: #ff7506;
+                                                        width: 20px;
+                                                        height: 20px;
+                                                    }
+                                                }
+                                            }
+
+                                            &-active {
+                                                border: 1px solid #ffac6a;
+                                                border-radius: 8px;
+                                            }
+
+                                            &-selected {
+                                                border: 1px solid #ffac6a;
+                                                border-radius: 8px;
+                                            }
+
+                                            &:not(.ant-select-disabled):hover .ant-select-selector {
+                                                border: 1px solid #ffac6a;
+                                                border-radius: 8px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-mini-profile {
+                        padding: 24px 24px 0px 24px;
+                        width: 32.339%;
+                        background: #ffffff;
+                        border-radius: 8px 0 0 8px;
+
+                        .profile-informagtion {
+                            display: flex;
+                            justify-content: center;
+                            .person-notification {
+                                display: flex;
+                                .ant-avatar {
+                                    min-width: 40px;
+                                    min-height: 40px;
+                                    margin: 0 8px 0 24px;
+                                }
+
+                                .hello-title {
+                                    margin-top: -2px;
+                                    p {
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        line-height: 18px;
+                                        color: #7e7d88;
+                                        margin-bottom: 0;
+                                    }
+
+                                    h2 {
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                        color: #535261;
+                                    }
+                                }
+                            }
+                        }
+
+                        .overview-dashboard {
+                            margin-top: 30px;
+                            height: 52%;
+                            h3 {
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 36px;
+                                color: #ff7506;
+                            }
+
+                            .device-progress {
+                                display: flex;
+                                box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+                                border-radius: 12px;
+                                margin-bottom: 12px;
+                                height: 21.12%;
+                                padding: 11px 16px;
+                                justify-content: space-between;
+
+                                .details-progress {
+                                    display: flex;
+                                    align-items: center;
+                                    width: 45%;
+                                    .ant-progress {
+                                        width: 41.55%;
+                                        .ant-progress-inner {
+                                            width: 100% !important;
+                                            height: auto !important;
+
+                                            .ant-progress-text {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 24px;
+                                                color: #535261;
+                                            }
+                                        }
+                                    }
+
+                                    .title-progress {
+                                        margin-left: 12px;
+                                        height: 82%;
+                                        .number {
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 800;
+                                            font-size: 24px;
+                                            line-height: 32px;
+                                            color: #535261;
+                                        }
+                                        p.device {
+                                            display: flex;
+                                            align-items: center;
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 14px;
+                                            line-height: 21px;
+                                            color: #ff7506;
+                                            margin-bottom: 0;
+                                            svg {
+                                                margin-right: 2px;
+                                            }
+                                        }
+
+                                        p.service {
+                                            display: flex;
+                                            align-items: center;
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 14px;
+                                            line-height: 21px;
+                                            color: #4277ff;
+                                            margin-bottom: 0;
+                                            svg {
+                                                margin-right: 2px;
+                                            }
+                                        }
+                                        p.number-level {
+                                            display: flex;
+                                            align-items: center;
+                                            font-family: "Nunito";
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 14px;
+                                            line-height: 21px;
+                                            color: #35c75a;
+                                            margin-bottom: 0;
+                                            svg {
+                                                margin-right: 2px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .work-progress {
+                                    display: flex;
+                                    align-items: center;
+                                    .active-stop {
+                                        .active-column-two {
+                                            svg {
+                                                margin-right: 4px;
+                                                width: 4px;
+                                                circle {
+                                                    fill: #4277ff !important;
+                                                }
+                                            }
+                                        }
+                                        .active-column-three {
+                                            svg {
+                                                margin-right: 4px;
+                                                width: 4px;
+                                                circle {
+                                                    fill: #35c75a !important;
+                                                }
+                                            }
+                                        }
+                                        .active {
+                                            display: flex;
+                                            align-items: center;
+                                            svg {
+                                                margin-right: 4px;
+                                                width: 4px;
+                                                circle {
+                                                    fill: #ffd130;
+                                                }
+                                            }
+                                            p {
+                                                margin-bottom: 0;
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #ff7506;
+                                            }
+
+                                            p.content {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 12px;
+                                                line-height: 21px;
+                                                color: #7e7d88;
+                                                margin-right: 12px;
+                                            }
+
+                                            p.content-column-three {
+                                                margin-right: 37px;
+                                            }
+
+                                            p.column-two {
+                                                color: #4277ff;
+                                            }
+
+                                            p.column-three {
+                                                color: #35c75a;
+                                            }
+                                        }
+
+                                        .no-margin {
+                                            margin-top: 0px !important;
+                                        }
+                                        .stop-active {
+                                            display: flex;
+                                            align-items: center;
+                                            margin-top: 5px;
+                                            svg {
+                                                margin-right: 4px;
+                                                width: 4px;
+                                            }
+                                            p {
+                                                margin-bottom: 0;
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                font-size: 14px;
+                                                line-height: 18px;
+                                                color: #ff7506;
+                                            }
+
+                                            p.content {
+                                                font-family: "Nunito";
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 12px;
+                                                line-height: 21px;
+                                                color: #7e7d88;
+                                                margin-right: 5px;
+                                            }
+
+                                            p.content-column-three {
+                                                margin-right: 47px;
+                                            }
+
+                                            p.contents-column-three {
+                                                margin-right: 61px;
+                                            }
+
+                                            p.column-two {
+                                                color: #4277ff;
+                                            }
+
+                                            p.column-three {
+                                                color: #35c75a;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .sdp {
+                                margin-top: 4px;
+                                width: 100%;
+                                box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+                                border-radius: 12px;
+                                .sdp--month-picker {
+                                    button.sdp--square-btn {
+                                        box-shadow: none;
+
+                                        svg {
+                                            width: 16px;
+                                            height: 16px;
+
+                                            polyline {
+                                                stroke: #ff7506;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                p.sdp--month-name {
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                    color: #ff7506;
+                                }
+
+                                .sdp--dates-grid {
+                                    p.sdp--text__inactive {
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 19px;
+                                        color: #ff9138;
+                                    }
+                                    button.sdp--date-btn {
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        line-height: 19px;
+                                        margin: 6px 0px;
+                                    }
+                                    button.sdp--date-btn__selected {
+                                        background: #ff7506;
+                                        border-radius: 8px;
+                                        font-family: "Nunito";
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 19px;
+                                        color: #ffffff;
+                                        width: 36px;
+                                        height: 36px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 1280px){
+                    .right-mini-profile {
+                        .overview-dashboard{
+                            .sdp {
+                                .sdp--dates-grid{
+                                    gap: 0;
+                                    .sdp--text{
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 1100px) {
+                    .site-layout-background {
+                        .left-title {
+                            padding: 24px 0 0 6px;
+                            h1 {
+                                margin-bottom: 10px;
+                            }
+                            .table-chart {
+                                margin-bottom: 10px;
+                                .chart {
+                                    .level-chart {
+                                        padding: 12px;
+
+                                        .ordinal-number {
+                                            .details-ordinal-number {
+                                                margin-bottom: 10px;
+                                                .ant-avatar {
+                                                    width: 30px !important;
+                                                    height: 30px !important;
+                                                    svg {
+                                                        width: 14px;
+                                                        height: 14px;
+                                                    }
+                                                }
+                                                p {
+                                                    font-size: 12px;
+                                                    line-height: 16px;
+                                                }
+                                            }
+                                            .view-ordinal-number {
+                                                align-items: center;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                                p {
+                                                    margin-bottom: 10px;
+                                                }
+                                                .ant-statistic {
+                                                    width: 88%;
+                                                    height: 25px;
+                                                    .ant-statistic-content {
+                                                        height: 25px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .used-level-chart {
+                                        padding: 12px;
+                                        margin-left: 9px;
+                                        .ordinal-number {
+                                            .details-ordinal-number {
+                                                margin-bottom: 10px;
+                                                .ant-avatar {
+                                                    width: 30px !important;
+                                                    height: 30px !important;
+                                                    svg {
+                                                        width: 14px;
+                                                        height: 14px;
+                                                    }
+                                                }
+                                                p {
+                                                    font-size: 12px;
+                                                    line-height: 16px;
+                                                }
+                                            }
+                                            .view-ordinal-number {
+                                                align-items: center;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                                p {
+                                                    margin-bottom: 10px;
+                                                }
+                                                .ant-statistic {
+                                                    width: 88%;
+                                                    height: 25px;
+                                                    .ant-statistic-content {
+                                                        height: 25px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .waiting-level-chart {
+                                        padding: 12px;
+                                        margin-left: 9px;
+                                        .ordinal-number {
+                                            .details-ordinal-number {
+                                                margin-bottom: 10px;
+                                                .ant-avatar {
+                                                    width: 30px !important;
+                                                    height: 30px !important;
+                                                    svg {
+                                                        width: 14px;
+                                                        height: 14px;
+                                                    }
+                                                }
+                                                p {
+                                                    font-size: 12px;
+                                                    line-height: 16px;
+                                                }
+                                            }
+                                            .view-ordinal-number {
+                                                align-items: center;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                                p {
+                                                    margin-bottom: 10px;
+                                                    width: 58%;
+                                                    margin-left: 0;
+                                                }
+                                                .ant-statistic {
+                                                    width: 88%;
+                                                    height: 25px;
+                                                    .ant-statistic-content {
+                                                        height: 25px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .skipped-level-chart {
+                                        padding: 12px;
+                                        margin-left: 9px;
+                                        .ordinal-number {
+                                            .details-ordinal-number {
+                                                margin-bottom: 10px;
+                                                .ant-avatar {
+                                                    width: 30px !important;
+                                                    height: 30px !important;
+                                                    svg {
+                                                        width: 14px;
+                                                        height: 14px;
+                                                    }
+                                                }
+                                                p {
+                                                    font-size: 12px;
+                                                    line-height: 16px;
+                                                }
+                                            }
+                                            .view-ordinal-number {
+                                                align-items: center;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                                p {
+                                                    margin-bottom: 10px;
+                                                }
+                                                .ant-statistic {
+                                                    width: 88%;
+                                                    height: 25px;
+                                                    .ant-statistic-content {
+                                                        height: 25px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .right-mini-profile {
+                            padding: 24px 10px 0px 10px;
+                            .profile-informagtion {
+                                justify-content: flex-start;
+                                .person-notification {
+                                    .ant-avatar {
+                                        min-width: 35px;
+                                        min-height: 35px;
+                                        margin: 0 8px 0 15px;
+                                    }
+                                }
+                            }
+                            .overview-dashboard {
+                                margin-top: 0;
+                                h3 {
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                }
+                                .device-progress{
+                                    padding: 10px;
+                                    .details-progress{
+                                        width: 38%;
+                                        .ant-progress{
+                                            display: none;
+                                        }
+                                        .title-progress{
+                                            margin-left: 0;
+                                        }
+                                    }
+                                    .work-progress{
+                                        width: 70%;
+                                        .active-stop{
+                                            width: 100%;
+                                            .active {
+                                                width: 100%;
+                                                p.content{
+                                                    font-size: 10px;
+                                                    line-height: 18px;
+                                                }
+                                            }
+                                            .stop-active{
+                                                p.content{
+                                                    font-size: 10px;
+                                                    line-height: 18px;
+                                                }
+                                                p.content-column-three {
+                                                    margin-right: 20px;
+                                                }
+                                                p.contents-column-three {
+                                                    margin-right: 30px;
+                                                }
+                                            }
+                                            .active-column-three{
+                                                p.content-column-three {
+                                                    margin-right: 10px;
+                                                }
+                                            }
+                                            
+                                        }
+                                    }
+                                }
+                                .sdp {
+                                    .sdp--dates-grid{
+                                        gap: 0;
+                                        .sdp--text{
+                                            padding: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-drawer {
+    .ant-drawer-mask {
+        background-color: transparent;
+    }
+    .ant-drawer-content-wrapper {
+        top: 70px;
+        max-width: 360px;
+        height: 58.186%;
+        border-radius: 10px;
+        .ant-drawer-content {
+            border-radius: 10px;
+            .ant-drawer-wrapper-body {
+                .ant-drawer-header {
+                    background: #ff9138;
+                    padding: 8.5px 24px;
+                    .ant-drawer-header-title {
+                        button.ant-drawer-close {
+                            display: none;
+                        }
+                        .ant-drawer-title {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #ffffff;
+                        }
+                    }
+                }
+                .ant-drawer-body {
+                    padding: 0;
+                    .information-notification {
+                        padding: 16px 22px;
+                        h3 {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #bf5805;
+                            margin-bottom: 4px;
+                        }
+                        p {
+                            font-family: "Nunito";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #535261;
+                            margin-bottom: 0;
+                        }
+
+                        &:hover{
+                            background: #FFF2E7;
+                        }
+                    }
+
+                    hr {
+                        margin: 0;
+                        margin-left: 5% !important; 
+                        margin-right: 5% !important;
+                    }
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background: #ffc89b;
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
