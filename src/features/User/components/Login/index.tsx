@@ -72,7 +72,7 @@ const LoginComponent: React.FC<ILoginProps> = () => {
                             rules={[
                                 {
                                     required: true,
-                                    message: 'Vui lòng nhập tên đăng nhập',
+                                    message: 'Vui lòng nhập tên đăng nhập: lamnguyent2',
                                 },
                             ]}
                         >
@@ -84,7 +84,7 @@ const LoginComponent: React.FC<ILoginProps> = () => {
                             rules={[
                                 {
                                     required: true,
-                                    message: 'Vui lòng nhập mật khẩu',
+                                    message: 'Vui lòng nhập mật khẩu: 111111',
                                 },
                             ]}
                             className="password"
@@ -94,7 +94,7 @@ const LoginComponent: React.FC<ILoginProps> = () => {
                         <Form.Item>
                             {
                                 (dataLogincheck) === "error" ? (
-                                    <span className='span-error-check-login'><IconError /> Sai mật khẩu hoặc tên đăng nhập</span>
+                                    <span className='span-error-check-login'><IconError /> Sai mật khẩu hoặc tên đăng nhập (tk: lamnguyent2 mk: 111111)</span>
                                 ) : (
                                     <Link to="/check-email">Quên mật khẩu?</Link>
                                 )
