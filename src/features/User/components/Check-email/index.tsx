@@ -55,7 +55,7 @@ const CheckEmailComponent: React.FC<ICheckEmailProps> = () => {
             <div className="CheckEmail">
                 <div className="CheckEmail-classic">
                     <div className="img-logo">
-                        <Image src="images/User/Check-email/logo.png" alt="" />
+                        <Image src="images/User/Check-email/logos.png" alt="" />
                     </div>
                     <Form className="form" onFinish={onFinish} onFinishFailed={onFinishFailed} autoComplete="off">
                         {
@@ -71,7 +71,7 @@ const CheckEmailComponent: React.FC<ICheckEmailProps> = () => {
                                 rules={[
                                     {
                                         required: true,
-                                        message: 'Vui lòng nhập email',
+                                        message: 'Email: lamnguyenxyzt2@gmail.com',
                                     },
                                 ]}
                             >

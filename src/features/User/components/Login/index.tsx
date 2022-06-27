@@ -49,7 +49,7 @@ const LoginComponent: React.FC<ILoginProps> = () => {
             <div className="signin">
                 <div className="signin-classic">
                     <div className="img-logo">
-                        <Image src="images/User/Login/logo.png" alt="" />
+                        <Image src="images/User/Login/logos.png" alt="" />
                     </div>
                     <Form
                         name="basic"

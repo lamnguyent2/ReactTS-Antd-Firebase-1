@@ -29,7 +29,7 @@ const ForgotPasswordComponent: React.FC<IForgotPasswordProps> = () => {
             <div className="ForgotPass">
                 <div className="ForgotPass-classic">
                     <div className="img-logo">
-                        <Image src="images/User/Check-email/logo.png" alt="" />
+                        <Image src="images/User/Check-email/logos.png" alt="" />
                     </div>
                     {
                         (datacheckmails) ? (
