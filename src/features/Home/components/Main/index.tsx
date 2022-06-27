@@ -6,35 +6,19 @@ export interface IHomeProps { }
 const HomeComponent: React.FC<IHomeProps> = () => {
     return (
         <div className='center-layout'>
+            <a href="" target="_blank" ></a>
             Danh sách link: <br /><br />
-            Đăng nhập: http://localhost:3000/login <br />
-            Check email: http://localhost:3000/check-email <br />
-            Quên mật khẩu: http://localhost:3000/forgot-password <br />
-            Tài khoản cá nhân: http://localhost:3000/profile/1 <br /><br />
-            Dashboard: http://localhost:3000/dashboard <br /><br />
-            Quản lý thiết bị: http://localhost:3000/device-management <br />
-            Thêm thiết bị: http://localhost:3000/device-create <br />
-            Thông tin chi tiết: http://localhost:3000/device-details/0 <br />
-            Cập nhật thiết bị: http://localhost:3000/device-update/0 <br /><br />
-            Danh sách dịch vụ: http://localhost:3000/service-list <br />
-            Thêm dịch vụ: http://localhost:3000/service-create <br />
-            Chi tiết: http://localhost:3000/service-details/0 <br />
-            Cập nhật: http://localhost:3000/service-update/0 <br /><br />
-            Quản lý cấp số: http://localhost:3000/number-level-management <br />
-            Quản lý cấp số đang chờ: http://localhost:3000/number-level-management-waiting <br />
-            Quản lý cấp số đã sử dụng: http://localhost:3000/number-level-management-used <br />
-            Quản lý cấp số bỏ qua: http://localhost:3000/number-level-management-skipped <br />
-            Cấp số mới cần đăng nhập: http://localhost:3000/number-level-create-login-required <br />
-            Thông tin chi tiết: http://localhost:3000/number-level-details <br />
-            Cấp số mới không đăng nhập: http://localhost:3000/number-level-create-no-login-required <br /><br />
-            Quản lý báo cáo: http://localhost:3000/report-management <br /><br />
-            Quản lý vai trò: http://localhost:3000/role-management <br />
-            Thêm vai trò: http://localhost:3000/role-create <br />
-            Cập nhật vai trò: http://localhost:3000/role-update/0 <br /><br />
-            Danh sách tài khoản: http://localhost:3000/account-list <br />
-            Thêm tài khoản: http://localhost:3000/account-create <br />
-            Cập nhật tài khoản: http://localhost:3000/account-update/0 <br /><br />
-            Nhật ký người dùng: http://localhost:3000/user-logs-list
+            Đăng nhập: <a href="/login" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/login</a> <br />
+            Check email: <a href="/check-email" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/check-email</a> <br />
+            Quên mật khẩu: <a href="/forgot-password" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/forgot-password</a> <br />
+            Dashboard: <a href="/dashboard" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/dashboard</a> <br />
+            Quản lý thiết bị: <a href="/device-management" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/device-management</a> <br />
+            Danh sách dịch vụ: <a href="/service-list" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/service-list</a> <br />
+            Quản lý cấp số: <a href="/number-level-management" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/number-level-management</a> <br />
+            Quản lý báo cáo: <a href="/report-management" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/report-management</a> <br />
+            Quản lý vai trò: <a href="/role-management" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/role-management</a> <br />
+            Danh sách tài khoản: <a href="/account-list" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/account-list</a> <br />
+            Nhật ký người dùng: <a href="/user-logs-list" target="_blank" >https://react-ts-antd-firebase-1.vercel.app/user-logs-list</a>
         </div>
     );
 };
